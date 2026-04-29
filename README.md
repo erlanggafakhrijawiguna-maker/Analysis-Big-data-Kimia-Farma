@@ -26,6 +26,7 @@ ERLANGGA FAKHRIJA WIGUNA
 # Analisis-Table-Kmia-Farma
 CREATE OR REPLACE TABLE `rakamin-academy-data-ascience.KimiaFarma.tabel_analisa` AS
 SELECT 
+
     -- 1. Informasi Dasar Transaksi (dari kf_transaksi)
     t.transaction_id,
     t.date,
